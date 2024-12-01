@@ -99,10 +99,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # MySQL 데이터베이스 엔진
-        'NAME': 'dbp',                   # 데이터베이스 이름
-        'USER': 'dbproj',            # 사용자 이름 (Azure 형식으로 @hostname 포함)
-        'PASSWORD': 'Projdb12',               # 사용자 비밀번호
-        'HOST': 'dbdesign.mysql.database.azure.com',  # Azure SQL 호스트 이름
+        'NAME': '~~',                   # 데이터베이스 이름
+        'USER': '~~',            # 사용자 이름 (Azure 형식으로 @hostname 포함)
+        'PASSWORD': '~~',               # 사용자 비밀번호
+        'HOST': '~~.mysql.database.azure.com',  # Azure SQL 호스트 이름
         'PORT': '3306',                       # MySQL 기본 포트
         'OPTIONS': {
             'ssl': {'ssl-mode': 'require'},   # SSL 모드 활성화
